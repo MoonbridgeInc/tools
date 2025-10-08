@@ -42,16 +42,10 @@ A bash script for automated installation of Go (Golang) with version selection a
 
 ## Quick Install
 
-**Option 1: Download and inspect (recommended)**
 ```bash
-wget https://raw.githubusercontent.com/MoonbridgeInc/tools/refs/heads/main/go-install/go_version_install.sh
+wget https://raw.githubusercontent.com/mrhoodd/tools/refs/heads/main/go_version_install.sh
 chmod +x go_version_install.sh
 sudo ./go_version_install.sh
-```
-
-**Option 2: Direct execution**
-```bash
-curl -fsSL https://raw.githubusercontent.com/MoonbridgeInc/tools/refs/heads/main/go-install/go_version_install.sh | sudo bash
 ```
 
 ### Example Session
